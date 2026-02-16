@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Register</title>
+</head>
+<body>
+<h2>Login Successful 🎉</h2>
+
+<p><b>User:</b> <span th:text="${username}"></span></p>
+
+<p><b>JWT Token:</b></p>
+<textarea rows="6" cols="100" readonly th:text="${token}"></textarea>
+</body>
+</html>
